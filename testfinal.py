@@ -259,7 +259,7 @@ def draw_start():
     for bottom_grass in bottom_grasses:
         bottom_grass.draw()
     
-    screen.draw.text('Nome Incrível', center=(WIDTH//2, HEIGHT//3), fontsize=60, color='darkblue')
+    screen.draw.text('Just a Platform Game', center=(WIDTH//2, HEIGHT//3), fontsize=60, color='darkblue')
     screen.draw.text('Click here or press SPACE to start', center=play_rect.center, fontsize=50, color="blue")
     screen.draw.text('Music ON/OFF', center=music_rect.center, fontsize=50, color='pink')
     screen.draw.text('Sounds ON/Off', center=sounds_rect.center, fontsize=50, color='purple')
@@ -625,4 +625,5 @@ def respawn():
     alien.image = alien_idle
     status = "game"
     
+
 pgzrun.go()
